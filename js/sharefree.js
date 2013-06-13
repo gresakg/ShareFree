@@ -33,18 +33,19 @@ var twlink = "http://twitter.com/share?text=" + sfTitle + "&amp;url=" + currentU
 var gplink = "https://plus.google.com/share?url=" + currentUrl
 var pilink = "http://pinterest.com/pin/create/button/?url=" + currentUrl + "&amp;media=" + sfImage + "&amp;description=" + sfTitle
 var emlink = "mailto:?subject=" + sfTitle + "&body=" + currentUrl
-$(".sf-facebook").click(function(){
+$(".sf-facebook").click(function(event){
+	event.preventDefault();
     window.open(fblink, 'fbshare', 'width=' + sfDialogWidth + ',height=' + sfDialogHeight);
 });
-$(".sf-twitter").click(function(){
+$(".sf-twitter").click(function(event){
     event.preventDefault();
     window.open(twlink, 'twittershare', 'width=' + sfDialogWidth + ',height=' + sfDialogHeight);
 }); 
-$(".sf-gplus").click(function(){
+$(".sf-gplus").click(function(event){
     event.preventDefault();
     window.open(gplink, 'gplusshare', 'width=' + sfDialogWidth + ',height=' + sfDialogHeight);
 }); 
-$(".sf-pinterest").click(function(){
+$(".sf-pinterest").click(function(event){
     event.preventDefault();
     window.open(pilink, 'pinshare', 'width=' + sfDialogWidth + ',height=' + sfDialogHeight);
 });
