@@ -13,6 +13,13 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/modernizr-2.6.1.min.js"></script>
         <script src="js/jquery-1.8.0.min.js"></script>
+        <script src="js/sharefree.js"></script>
+        <script>
+			jQuery(document).ready(function(){
+				$("#smallshare").sharefree({template:'smallicons'});
+				$("#bigshare").sharefree({template:'bigicons'});		
+			});
+        </script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -22,16 +29,8 @@
         <div>
         <h1>Share Free</h1>
         <img src="img/sushi.png" alt="sushi" style="float:right" width="300">
+		<div id="smallshare"></div>        
         <p>Cookie free social sharing.</p>
-		<!-- sharefree small icons markup -->
-		<div class="sharefree">
-            <a class="sf-facebook" href="#"><img src="img/facebook16.gif" alt="fb" class="sf-image"></a>
-            <a class="sf-twitter" href="#"><img src="img/twitter16.jpg" alt="tw" class="sf-image"></a>
-            <a class="sf-gplus" href="#"><img src="img/gplus16.jpg" alt="g+" class="sf-image"></a>
-            <a class="sf-pinterest" href="#"><img src="img/pinterest16.png" alt="p" class="sf-image"></a>
-            <a class="sf-email" href="#"><img src="img/email16.gif" alt="@" class="sf-image"></a>
-        </div>
-		<!-- end sharefree -->
         <p>
             Social plugins usually contain tracking code that tracks all your visitors. 
             If you respect the privacy of your clients, you should use this tracking free code.
@@ -43,16 +42,7 @@
         <p>
             Now try and share this page.
         </p>
-		<!-- sharefree big icons markup -->
-        <div class="sharefree">
-            <a class="sf-facebook" href="#"><img src="img/facebook.png" alt="fb" class="sf-image"></a>
-            <a class="sf-twitter" href="#"><img src="img/twitter.gif" alt="tw" class="sf-image"></a>
-            <a class="sf-gplus" href="#"><img src="img/gplus.jpg" alt="g+" class="sf-image"></a>
-            <a class="sf-pinterest" href="#"><img src="img/pinterest.png" alt="p" class="sf-image"></a>
-            <a class="sf-email" href="#"><img src="img/email.png" alt="@" class="sf-image"></a>
+        <div id="bigshare"></div>
         </div>
-		<!-- end sharefree -->
-        </div>
-		<script src="js/sharefree.js"></script>
     </body>
 </html>
