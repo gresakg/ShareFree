@@ -29,18 +29,18 @@
 			template: 'smallicons',
 			templates:{
 			smallicons:'<div class="sharefree">\n\
-            	<a class="sf-facebook" href="#"><img src="img/facebook16.gif" alt="fb" class="sf-image"></a>\n\
-            	<a class="sf-twitter" href="#"><img src="img/twitter16.jpg" alt="tw" class="sf-image"></a>\n\
-            	<a class="sf-gplus" href="#"><img src="img/gplus16.jpg" alt="g+" class="sf-image"></a>\n\
-            	<a class="sf-pinterest" href="#"><img src="img/pinterest16.png" alt="p" class="sf-image"></a>\n\
-            	<a class="sf-email" href="#"><img src="img/email16.gif" alt="@" class="sf-image"></a>\n\
+            	<a class="sf-facebook" href="#"><img src="/img/facebook16.gif" alt="fb" class="sf-image"></a>\n\
+            	<a class="sf-twitter" href="#"><img src="/img/twitter16.jpg" alt="tw" class="sf-image"></a>\n\
+            	<a class="sf-gplus" href="#"><img src="/img/gplus16.jpg" alt="g+" class="sf-image"></a>\n\
+            	<a class="sf-pinterest" href="#"><img src="i/mg/pinterest16.png" alt="p" class="sf-image"></a>\n\
+            	<a class="sf-email" href="#"><img src="/img/email16.gif" alt="@" class="sf-image"></a>\n\
         	</div>\n',
         	bigicons:'<div class="sharefree">\n\
-	            <a class="sf-facebook" href="#"><img src="img/facebook.png" alt="fb" class="sf-image"></a>\n\
-            	<a class="sf-twitter" href="#"><img src="img/twitter.gif" alt="tw" class="sf-image"></a>\n\
-            	<a class="sf-gplus" href="#"><img src="img/gplus.jpg" alt="g+" class="sf-image"></a>\n\
-            	<a class="sf-pinterest" href="#"><img src="img/pinterest.png" alt="p" class="sf-image"></a>\n\
-            	<a class="sf-email" href="#"><img src="img/email.png" alt="@" class="sf-image"></a>\n\
+	            <a class="sf-facebook" href="#"><img src="/img/facebook.png" alt="fb" class="sf-image"></a>\n\
+            	<a class="sf-twitter" href="#"><img src="/img/twitter.gif" alt="tw" class="sf-image"></a>\n\
+            	<a class="sf-gplus" href="#"><img src="/img/gplus.jpg" alt="g+" class="sf-image"></a>\n\
+            	<a class="sf-pinterest" href="#"><img src="/img/pinterest.png" alt="p" class="sf-image"></a>\n\
+            	<a class="sf-email" href="#"><img src="/img/email.png" alt="@" class="sf-image"></a>\n\
         	</div>\n'}
 		};
 		
