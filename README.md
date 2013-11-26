@@ -11,6 +11,7 @@ Check out the [demo](http://demo.gresak.net/demo/sharefree/sharefree.html)
 # License
 
 ShareFree tracking free social bookmarks
+
 Copyright 2013 by Gregor Gresak <design@gresak.net>
 
 This program is free software; you can redistribute it and/or
@@ -24,4 +25,4 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You can read the full text of this licence at the following link
-(http://www.gnu.org/licenses/gpl-2.0.html)
+http://www.gnu.org/licenses/gpl-2.0.html
