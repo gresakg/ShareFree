@@ -1,4 +1,3 @@
-
 # Share Free
 
 Cookie free social sharing.
@@ -7,4 +6,4 @@ Social plugins usually contain tracking code that tracks all your visitors. If y
 
 You can improve the sharing using open graph meta tags in the header of your web page.
 
-Check out the [demo](http://park.b77.org/demo/sharefree/sharefree.html)
+Check out the [demo](http://park.gresak.net/demo/sharefree/sharefree.html)
