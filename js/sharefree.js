@@ -29,18 +29,18 @@
 			template: 'smallicons',
 			templates:{
 			smallicons:'<div class="sharefree">\n\
-            	<a class="sf-facebook" href="#"><img src="/img/facebook16.gif" alt="fb" class="sf-image"></a>\n\
-            	<a class="sf-twitter" href="#"><img src="/img/twitter16.jpg" alt="tw" class="sf-image"></a>\n\
-            	<a class="sf-gplus" href="#"><img src="/img/gplus16.jpg" alt="g+" class="sf-image"></a>\n\
-            	<a class="sf-pinterest" href="#"><img src="i/mg/pinterest16.png" alt="p" class="sf-image"></a>\n\
-            	<a class="sf-email" href="#"><img src="/img/email16.gif" alt="@" class="sf-image"></a>\n\
+            	<a class="sf-facebook" href="#"><img src="img/facebook16.gif" alt="fb" class="sf-image"></a>\n\
+            	<a class="sf-twitter" href="#"><img src="img/twitter16.jpg" alt="tw" class="sf-image"></a>\n\
+            	<a class="sf-gplus" href="#"><img src="img/gplus16.jpg" alt="g+" class="sf-image"></a>\n\
+            	<a class="sf-pinterest" href="#"><img src="img/pinterest16.png" alt="p" class="sf-image"></a>\n\
+            	<a class="sf-email" href="#"><img src="img/email16.gif" alt="@" class="sf-image"></a>\n\
         	</div>\n',
         	bigicons:'<div class="sharefree">\n\
-	            <a class="sf-facebook" href="#"><img src="/img/facebook.png" alt="fb" class="sf-image"></a>\n\
-            	<a class="sf-twitter" href="#"><img src="/img/twitter.gif" alt="tw" class="sf-image"></a>\n\
-            	<a class="sf-gplus" href="#"><img src="/img/gplus.jpg" alt="g+" class="sf-image"></a>\n\
-            	<a class="sf-pinterest" href="#"><img src="/img/pinterest.png" alt="p" class="sf-image"></a>\n\
-            	<a class="sf-email" href="#"><img src="/img/email.png" alt="@" class="sf-image"></a>\n\
+	            <a class="sf-facebook" href="#"><img src="img/facebook.png" alt="fb" class="sf-image"></a>\n\
+            	<a class="sf-twitter" href="#"><img src="img/twitter.gif" alt="tw" class="sf-image"></a>\n\
+            	<a class="sf-gplus" href="#"><img src="img/gplus.jpg" alt="g+" class="sf-image"></a>\n\
+            	<a class="sf-pinterest" href="#"><img src="img/pinterest.png" alt="p" class="sf-image"></a>\n\
+            	<a class="sf-email" href="#"><img src="img/email.png" alt="@" class="sf-image"></a>\n\
         	</div>\n'}
 		};
 		
@@ -52,7 +52,7 @@
 		var fblink= "https://www.facebook.com/sharer.php?u=" + currentUrl + "&amp;image=" + sfImage
 		var twlink = "http://twitter.com/share?text=" + sfTitle + "&amp;url=" + currentUrl
 		var gplink = "https://plus.google.com/share?url=" + currentUrl
-		var pilink = "http://pinterest.com/pin/create/button/?url=" + currentUrl + "&amp;media=" + sfImage + "&amp;description=" + sfTitle
+		var pilink = "http://pinterest.com/pin/find/?url=" + currentUrl
 		var emlink = "mailto:?subject=" + sfTitle + "&body=" + currentUrl
 		
 		function createDOM(obj){
